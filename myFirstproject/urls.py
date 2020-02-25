@@ -19,7 +19,6 @@ from core import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('main/<int:value1>/<int:value2>/', views.Main.main_site)
 ]
 
 ##### O nome dos parametros dentro do PATH deve ser o mesmo nome dos parametros da função!
